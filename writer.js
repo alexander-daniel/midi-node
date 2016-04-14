@@ -58,6 +58,7 @@ Writer.prototype.event = function (delta, statusByte, dataBytes, cb) {
 	if (this.lastEvent === statusByte) {
 		eventBuffer = Buffer.concat([
 			vlv.toBuffer(delta),
+			new Buffer([statusByte]),
 			new Buffer(dataBytes)
 		]);
 	} else {
@@ -68,7 +69,6 @@ Writer.prototype.event = function (delta, statusByte, dataBytes, cb) {
 		]);
 		this.lastEvent = statusByte;
 	}
-
 	return this.stream.write(eventBuffer, cb);
 };
 

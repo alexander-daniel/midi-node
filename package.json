@@ -1,24 +1,78 @@
 {
-  "name": "midi-node",
-  "version": "0.1.11",
-  "description": "A midi parser and writer.",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --check-leaks --bail"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:jokr/midi-node.git"
-  },
-  "keywords": [
-    "midi"
+  "_args": [
+    [
+      "midi-node@^0.1.13",
+      "/Users/sam/Projects/LOFT/auto-bounce"
+    ]
   ],
-  "author": "Joel Krebs <joel.krebs@gmail.com> (www.aleaiactaest.ch)",
-  "license": "MIT",
+  "_from": "midi-node@>=0.1.13 <0.2.0",
+  "_id": "midi-node@0.1.13",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/midi-node",
+  "_nodeVersion": "4.0.0",
+  "_npmUser": {
+    "email": "joel.krebs@gmail.com",
+    "name": "jokr"
+  },
+  "_npmVersion": "2.14.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "midi-node",
+    "raw": "midi-node@^0.1.13",
+    "rawSpec": "^0.1.13",
+    "scope": null,
+    "spec": ">=0.1.13 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/midi-node/-/midi-node-0.1.13.tgz",
+  "_shasum": "e9c6131c0ec62245d7b95345813aa229c333f724",
+  "_shrinkwrap": null,
+  "_spec": "midi-node@^0.1.13",
+  "_where": "/Users/sam/Projects/LOFT/auto-bounce",
+  "author": {
+    "email": "joel.krebs@gmail.com",
+    "name": "Joel Krebs",
+    "url": "www.aleaiactaest.ch"
+  },
   "bugs": {
     "url": "https://github.com/jokr/midi-node/issues"
   },
+  "dependencies": {},
+  "description": "A midi parser and writer.",
   "devDependencies": {
     "mocha": "^2.2.5"
-  }
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "e9c6131c0ec62245d7b95345813aa229c333f724",
+    "tarball": "http://registry.npmjs.org/midi-node/-/midi-node-0.1.13.tgz"
+  },
+  "gitHead": "13f34206cac16450956ff7fd91ade61fa433dbe5",
+  "homepage": "https://github.com/jokr/midi-node#readme",
+  "keywords": [
+    "midi"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "joel.krebs@gmail.com",
+      "name": "jokr"
+    }
+  ],
+  "name": "midi-node",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jokr/midi-node.git"
+  },
+  "scripts": {
+    "test": "mocha --check-leaks --bail"
+  },
+  "version": "0.1.13"
 }
